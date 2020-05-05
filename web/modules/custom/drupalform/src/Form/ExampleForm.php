@@ -13,10 +13,10 @@
 
 namespace Drupal\drupalform\Form;
 
-use Drupal\Core\Form\FormBase;
+use Drupal\Core\Form\ConfigFormBase;
 use Drupal\Core\Form\FormStateInterface;
 
-class ExampleForm extends FormBase {
+class ExampleForm extends ConfigFormBase {
 
   /**
    * {@inheritdoc}
@@ -28,64 +28,22 @@ class ExampleForm extends FormBase {
   /**
    * {@inheritdoc}
    */
+  protected function getEditableConfigNames() {
+    return ['drupalform.company'];
+  }
+
+  /**
+   * {@inheritdoc}
+   */
   public function buildForm(array $form, FormStateInterface $form_state) {
     // Return array of Form API elements.
     $form['company_name'] = [
       '#type' => 'textfield',
       '#title' => $this->t('Company name'),
+      '#default_value' => $this->config('drupalform.company')->get('company_name'),
     ];
 
-    $form['phone'] = [
-      '#type' => 'tel',
-      '#title' => $this->t('Phone'),
-    ];
-
-    $form['email'] = [
-      '#type' => 'email',
-      '#title' => $this->t('Email'),
-    ];
-
-    $form['integer'] = [
-      '#type' => 'number',
-      '#title' => $this->t('Some integer'),
-      // The increment or decrement amount
-      '#step' => 1,
-      // Miminum allowed value
-      '#min' => 0,
-      // Maxmimum allowed value
-      '#max' => 100,
-    ];
-
-    $form['date'] = [
-      '#type' => 'date',
-      '#title' => $this->t('Date'),
-      '#date_date_format' => 'Y-m-d',
-    ];
-
-    $form['website'] = [
-      '#type' => 'url',
-      '#title' => $this->t('Website'),
-    ];
-
-    $form['search'] = [
-      '#type' => 'search',
-      '#title' => $this->t('Search'),
-      '#autocomplete_route_name' => FALSE,
-    ];
-
-    $form['range'] = [
-      '#type' => 'range',
-      '#title' => $this->t('Range'),
-      '#min' => 0,
-      '#max' => 100,
-      '#step' => 1,
-    ];
-
-    $form['submit'] = [
-      '#type' => 'submit',
-      '#value' => $this->t('Save'),
-    ];
-    return $form;
+    return parent::buildForm($form, $form_state);
   }
 
   /**
@@ -105,7 +63,8 @@ class ExampleForm extends FormBase {
   /**
    * {@inheritdoc}
    */
-  public function submitForm(array &$form,  FormStateInterface $form_state) {
-    // Validation covered in later recipe, required to satisfy interface.
+  public function submitForm(array &$form, FormStateInterface $form_state) {
+    parent::submitForm($form, $form_state);
+    $this->config('drupalform.company')->set('name', $form_state->getValue('company_name'));
   }
 }
