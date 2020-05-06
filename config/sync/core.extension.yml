@@ -10,6 +10,7 @@ module:
   config: 0
   config_update: 0
   contact: 0
+  content_authoring: 0
   contextual: 0
   datetime: 0
   dblog: 0
