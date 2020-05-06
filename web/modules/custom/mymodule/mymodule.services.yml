@@ -1,0 +1,14 @@
+# enregestrer le service our changer le itirinaire.
+services:
+  mymodule.route_subscriber:
+    class: Drupal\mymodule\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }
+
+# Nous devons enregistrer notre classe avec le conteneur de service afin que Drupal comprenne qu'il agira en tant qu'abonné à l'événement.
+# La event_subscriberbalise indique au conteneur d'appeler la getSubscribedEventsméthode et d'enregistrer ses méthodes.
+  mymodule.request_subscriber:
+    class: Drupal\mymodule\EventSubscriber\RequestSubscriber
+    arguments: ['@current_route_match', '@current_user']
+    tags:
+      - { name: event_subscriber }

@@ -1,0 +1,17 @@
+# ajouter une route pour afichier la page de controller
+mymodule.mypage:
+  path: '/mypage'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\MyPageController::customPage'
+    _title: 'My custom page'
+  requirements:
+    _permission: 'view mymodule pages' # utilisation de la permission creat on this module.
+
+# une page avec une variable envoiyee par le URL et une validation pour cette variable.
+mymodule.cats:
+  path: '/cat/{name}'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\MyPageController::cats'
+  requirements:
+    _permission: 'access content'
+    name: '[a-zA-z]+'
