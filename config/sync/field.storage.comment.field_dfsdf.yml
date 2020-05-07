@@ -1,0 +1,19 @@
+uuid: 722fcd9e-ed94-470a-a2f8-c739f6be1811
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - mymodule
+id: comment.field_dfsdf
+field_name: field_dfsdf
+entity_type: comment
+type: realname
+settings: {  }
+module: mymodule
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

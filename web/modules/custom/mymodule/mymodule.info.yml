@@ -1,0 +1,4 @@
+name: 'My Module'
+description: 'Plugin in drupal 8'
+type: module
+core: 8.x

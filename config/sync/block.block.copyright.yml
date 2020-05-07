@@ -1,0 +1,21 @@
+uuid: 2290704d-b3d0-4fe8-8ea9-b129b8c0a37f
+langcode: en
+status: true
+dependencies:
+  module:
+    - mymodule
+  theme:
+    - bartik
+id: copyright
+theme: bartik
+region: footer_fourth
+weight: 0
+provider: null
+plugin: copyright_block
+settings:
+  id: copyright_block
+  label: Copyright
+  provider: mymodule
+  label_display: '0'
+  company_name: ''
+visibility: {  }

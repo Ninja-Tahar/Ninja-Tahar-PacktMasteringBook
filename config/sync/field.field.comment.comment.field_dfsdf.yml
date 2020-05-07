@@ -1,0 +1,25 @@
+uuid: 45b3f866-8a45-414e-bf2e-ff0220e0c7f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+    - field.storage.comment.field_dfsdf
+  module:
+    - mymodule
+id: comment.comment.field_dfsdf
+field_name: field_dfsdf
+entity_type: comment
+bundle: comment
+label: dfsdf
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+    first_name: null
+    last_name: null
+default_value_callback: ''
+settings: {  }
+field_type: realname

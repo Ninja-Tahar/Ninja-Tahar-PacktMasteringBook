@@ -5,6 +5,7 @@ dependencies:
   config:
     - comment.type.comment
     - field.field.comment.comment.comment_body
+    - field.field.comment.comment.field_dfsdf
   module:
     - text
 _core:
@@ -25,6 +26,14 @@ content:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
+  field_dfsdf:
+    weight: 12
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   subject:
     type: string_textfield
     weight: 10

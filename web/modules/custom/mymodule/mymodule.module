@@ -1,0 +1,53 @@
+<?php
+
+/**
+ * Implements hook_block_alter().
+ *
+ * Un module peut implémenter hook_block_alterdans son .modulefichier et modifier les définitions d'annotation de tous les blocs découverts.
+ * Cela permettra à un module de changer la valeur user_login_blockpar défaut de la connexion utilisateur à Login.
+ */
+function hook_block_alter(&$definitions) {
+  $definitions['user_login_block']['admin_label'] = t('Login');
+}
+
+/**
+ * Implements hook_block_build_alter().
+ *
+ * Un module peut implémenter hook_block_build_alteret modifier les informations de construction d'un bloc. Le hook est passé à travers le tableau de génération et
+ * l' \Drupal\Core\Block\BlockPluginInterfaceinstance du bloc actuel. Les développeurs de modules peuvent l'utiliser pour ajouter des contextes de cache ou
+ * modifier la capacité de cache des métadonnées:
+ */
+function hook_block_build_alter(array &$build, \Drupal\Core\Block\BlockPluginInterface $block) {
+  // Add the 'url' cache the block per URL.
+  if ($block->getBaseId() == 'myblock') {
+    $build['#contexts'][] = 'url';
+  }
+}
+
+/**
+ * Implements hook_block_view_alter().
+ *
+ * Enfin, un module peut implémenter hook_block_view_alterafin de modifier la sortie à restituer. Un module peut ajouter du contenu à rendre ou à supprimer.
+ * Cela peut être utilisé pour supprimer l' contextual_linksélément, ce qui permet une modification en ligne sur la première page d'un site:
+ */
+function hook_block_view_alter(array &$build, \Drupal\Core\Block\BlockPluginInterface $block) {
+  // Remove the contextual links on all blocks that provide them.
+  if (isset($build['#contextual_links'])) {
+    unset($build['#contextual_links']);
+  }
+}
+
+/**
+ * Implements hook_block_access().
+ */
+function hook_block_access(\Drupal\block\Entity\Block $block, $operation, \Drupal\Core\Session\AccountInterface $account) {
+  // Example code that would prevent displaying the Copyright' block in
+  // a region different than the footer.
+  if ($operation == 'view' && $block->getPluginId() == 'copyright') {
+    die('here');
+    return \Drupal\Core\Access\AccessResult::forbiddenIf($block->getRegion() != 'footer');
+  }
+
+  // No opinion.
+  return \Drupal\Core\Access\AccessResult::neutral();
+}
