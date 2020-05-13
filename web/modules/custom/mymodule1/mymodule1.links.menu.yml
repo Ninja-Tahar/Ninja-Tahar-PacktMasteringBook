@@ -1,0 +1,10 @@
+mymodule1.site_announcements:
+  title: 'Site announcements'
+  parent: system.admin_config_system
+  description: 'Manage site announcements.'
+  route_name: entity.announcement.collection
+
+entity.announcement.collection:
+  title: 'Site announcements'
+  route_name: entity.announcement.collection
+  description: 'Manage site announcements.'
