@@ -1,0 +1,11 @@
+uuid: 44045cd9-6855-4e7f-a3ff-6d9279bdbb33
+langcode: en
+status: true
+dependencies: {  }
+id: my_json_product_importer
+label: 'My JSON Product Importer'
+url: 'http://masteringpackt.localhost/sites/default/files/products.json'
+plugin: json
+update_existing: 1
+source: 'Products Form GGT75'
+bundle: null
