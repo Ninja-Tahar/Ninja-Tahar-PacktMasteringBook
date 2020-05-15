@@ -1,5 +1,49 @@
 [
     {
+        "name": "alsar/stack-ip-restrict",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/alsar/stack-ip-restrict.git",
+            "reference": "46c738deb8c9549bd62b87ce87e380be05db2e09"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/alsar/stack-ip-restrict/zipball/46c738deb8c9549bd62b87ce87e380be05db2e09",
+            "reference": "46c738deb8c9549bd62b87ce87e380be05db2e09",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4",
+            "symfony/http-foundation": "^2.1||^3||^4",
+            "symfony/http-kernel": "^2.1||^3||^4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^3.7",
+            "silex/silex": "^1.0",
+            "stack/builder": "^1.0"
+        },
+        "time": "2018-01-02T16:05:06+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Alsar\\Stack\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Stack middleware for allowing application access for specific IP addresses",
+        "keywords": [
+            "ip restrict",
+            "stack",
+            "stack middleware"
+        ]
+    },
+    {
         "name": "asm89/stack-cors",
         "version": "1.2.0",
         "version_normalized": "1.2.0.0",
