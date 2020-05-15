@@ -54,4 +54,5 @@ return array(
     'Composer\\Semver\\' => array($vendorDir . '/composer/semver/src'),
     'Composer\\Installers\\' => array($vendorDir . '/composer/installers/src/Composer/Installers'),
     'Asm89\\Stack\\' => array($vendorDir . '/asm89/stack-cors/src/Asm89/Stack'),
+    'Alsar\\Stack\\' => array($vendorDir . '/alsar/stack-ip-restrict/src'),
 );

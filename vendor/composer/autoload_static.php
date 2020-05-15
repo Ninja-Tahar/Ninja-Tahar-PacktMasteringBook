@@ -104,6 +104,7 @@ class ComposerStaticInit7ac018fddea3bdfe944b99da1a652ad4
         'A' => 
         array (
             'Asm89\\Stack\\' => 12,
+            'Alsar\\Stack\\' => 12,
         ),
     );
 
@@ -299,6 +300,10 @@ class ComposerStaticInit7ac018fddea3bdfe944b99da1a652ad4
         'Asm89\\Stack\\' => 
         array (
             0 => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack',
+        ),
+        'Alsar\\Stack\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/alsar/stack-ip-restrict/src',
         ),
     );
 
