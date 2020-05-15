@@ -2,61 +2,108 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1c71d16-c676-4aa0-a1f9-3fdfec793449" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/products/products.module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/products/src/Plugin/Importer/JsonImporter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/products/src/Plugin/ImporterBase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/sites/default/files/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/products/src/Entity/ProductType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/products/src/Entity/ProductTypeInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/products/src/Form/ProductTypeDeleteForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/products/src/Form/ProductTypeForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/products/src/ProductTypeListBuilder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/sync/core.extension.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/sync/core.extension.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/products/products.services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/products/products.services.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/products/src/Plugin/ImporterBas.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/products/src/Plugin/ImporterManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/products/src/Plugin/ImporterManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_admin-block-content.html._eIhKW3CYVBsUuD-xmGINDq6qr/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_admin-block-content.html._eIhKW3CYVBsUuD-xmGINDq6qr/iLOzNWxoVwV1KF_h4JFrxu2KhLZXCrQVJRQ6rlVZp6g.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_block--local-actions-bloc_Iy-qr-cjf1tCHq1lChlmElXii/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_block--local-actions-bloc_Iy-qr-cjf1tCHq1lChlmElXii/YwS8w3hNezbk_N6mN2s2MZzJRjJwLyxgftVLqScw9wE.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_block--system-messages-bl_Ba8o6Kd-PKkynGHueS7a99THC/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_block--system-messages-bl_Ba8o6Kd-PKkynGHueS7a99THC/8KIX0GG6f_RLIVTJruLt5-s8bpfMMayy0GnY8E9kYAs.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_block.html.twig_FzxTsU7v-9VIfXhs9q_E1JzSj/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_block.html.twig_FzxTsU7v-9VIfXhs9q_E1JzSj/lFUACPi1yu8DLUhGy1FWpmfAD0BSpP43c9DnvaUXrUk.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_block.html.twig_eICN7TdF_NjRs36zMLvkRWW3r/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_block.html.twig_eICN7TdF_NjRs36zMLvkRWW3r/06eWFFtiDzV_D2N5JWJkCG4W0WXW8DmTdJlhdAPrP-k.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_breadcrumb.html.twig_0myJvcmxqKC_MK406hc27etDU/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_breadcrumb.html.twig_0myJvcmxqKC_MK406hc27etDU/jI_kqT3uBPxlw__k2hgPgO_iHqMMRXgDQjEEtZ6-nwI.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_container.html.twig_w9X4qCE8-dlYC1GZHhCrjp23k/-SCAhf1xIbXB2-1Scb8wUFwb0CR_zTsrw6JzJgMH4pM.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_container.html.twig_w9X4qCE8-dlYC1GZHhCrjp23k/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_form-element-label.html.t_YtGD4v3uk-HJjBHjbzc90zsT5/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_form-element-label.html.t_YtGD4v3uk-HJjBHjbzc90zsT5/IoTJEQAuHWdVwdx7xIYQ4THdRBWbXKFzQlaCJue6Rus.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_form-element.html.twig_ARUUaFMUjHUYS1o68LzSsT4Jo/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_form-element.html.twig_ARUUaFMUjHUYS1o68LzSsT4Jo/hVyhRY4OaMRRLCUtjFazbGxk-A7sZyn24QAdbKCjtNU.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_form.html.twig_X6aw56nqV59RjyaisNTy9dany/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_form.html.twig_X6aw56nqV59RjyaisNTy9dany/B3E_HZ_a8807DQavfeEbTP1nEvvCkyKHTCEpd9RR118.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_html.html.twig_YNnM1PJt0wBqHD1tOKMlx30Pv/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_html.html.twig_YNnM1PJt0wBqHD1tOKMlx30Pv/IelAIndwoULHjBv0qxOO9gTDOn29ZjOLYjz5309MMKo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_input.html.twig_zCIJygriHR5V8sWmJ3UVobu8P/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_input.html.twig_zCIJygriHR5V8sWmJ3UVobu8P/rS_QWx8qYqwyMNOEpquxPtLmpaUq4n1pP4y5dkgOmj8.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_links.html.twig_mGTh8rqdIcqK0Oe2NsXiUyMIj/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_links.html.twig_mGTh8rqdIcqK0Oe2NsXiUyMIj/j6gpyG9179iDdphCuK-UsBN_dS4iIqxOfbJy-WcVrwM.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_menu--toolbar.html.twig_4OxXdEBe3o1ZZZVRW5XYjkn52/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_menu--toolbar.html.twig_4OxXdEBe3o1ZZZVRW5XYjkn52/KSYi-lX66X5FpKnBucI76DFGK3uHfI2WfifHv3mz3V4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_menu-local-action.html.tw_-bI1km-W_asdJx-M-BiX_UTRN/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_menu-local-action.html.tw_-bI1km-W_asdJx-M-BiX_UTRN/zqCebbVU6SkLV1PrptKgU3nyJOVdy0H_-bIUoyJHVpI.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_off-canvas-page-wrapper.h_2KBBj7a-2BTG_1Kr3pxPY32wT/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_off-canvas-page-wrapper.h_2KBBj7a-2BTG_1Kr3pxPY32wT/WDsE8D_0RSJBvu3b2CUENpvXXoIRw3RgqHgBc_0f1Dc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_page-title.html.twig_s_Y1j8ZywTvwPI6VCweipeRnO/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_page-title.html.twig_s_Y1j8ZywTvwPI6VCweipeRnO/BD17m70heMcFvUQtn35I-xYGn1YCk9UrSgaKMhzNacw.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_page.html.twig_2Hqn7I8yJX3xxigP26_LQEGjC/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_page.html.twig_2Hqn7I8yJX3xxigP26_LQEGjC/eMcNhhmRzs7rla59K2iXTtWCLDdubh3wlGJuOVOXTMo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_pager.html.twig_MusPaRciTv6vU26g0ZuK11FLD/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_pager.html.twig_MusPaRciTv6vU26g0ZuK11FLD/WLPfkJx-6P_yZA1_z7vK7PptUAWXz8bTA5XpHFDe8Jc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_region.html.twig_TkgGQaO5uEfcJrkbm9c7CmFQ-/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_region.html.twig_TkgGQaO5uEfcJrkbm9c7CmFQ-/6tqFH4Sd6MjeSnYWC-1Ip1xNEu3AEA1OHvUYZ4q7AgM.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_select.html.twig_Q2eazjeip4iqBRqRE1ee1pE7E/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_select.html.twig_Q2eazjeip4iqBRqRE1ee1pE7E/3URsr5dgN0o8zCVwFe18JkRavFk3EgvE8ObKDnbxDjc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_table.html.twig_Ltn9tFWnYwJuFapFp7NqFDzQs/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_table.html.twig_Ltn9tFWnYwJuFapFp7NqFDzQs/FJolrBzKNIGlx907G8kk05NjkTGVPjc3NRGepJjazKg.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_toolbar.html.twig_RHqK_HcbamNR-UZXaYAW72tWo/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebcd9e1d8031_toolbar.html.twig_RHqK_HcbamNR-UZXaYAW72tWo/gWHrx1Ha-PoAMEXKT3Y578tBK3sV3juniSBefMq2UTE.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/products/Config/schema/importer.schema.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/products/Config/schema/importer.schema.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/products/products.links.action.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/products/products.links.action.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/products/products.links.menu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/products/products.links.menu.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/products/products.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/products/products.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/products/src/Entity/Importer.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/products/src/Entity/Importer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/products/src/Entity/ImporterInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/products/src/Entity/ImporterInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/products/src/Entity/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/products/src/Entity/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/products/src/Form/ImporterForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/products/src/Form/ImporterForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/products/src/Plugin/Importer/JsonImporter.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/products/src/Plugin/Importer/JsonImporter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/products/src/ProductListBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/products/src/ProductListBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_admin-block-content.html._eIhKW3CYVBsUuD-xmGINDq6qr/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_admin-block-content.html._eIhKW3CYVBsUuD-xmGINDq6qr/EMEMcE592gkCkix8GqOXk4Dc4Zydu7ab7FGp0rkKAtg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block--local-actions-bloc_Iy-qr-cjf1tCHq1lChlmElXii/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block--local-actions-bloc_Iy-qr-cjf1tCHq1lChlmElXii/PC5fzYGv4MjpXq-0JEBxj2uyfKAgh-XnH_8LY6a_dsc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block--local-tasks-block._DraTcpEQxlrf5yIeWfKcGd_lt/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block--local-tasks-block._DraTcpEQxlrf5yIeWfKcGd_lt/cra-lR5oxiGREZ04QZBE4rh4KmNqwfpsQOrve9I_2pw.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block--search-form-block._DXLOCftaoPmlsUJh-McIP6M4Z/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block--search-form-block._DXLOCftaoPmlsUJh-McIP6M4Z/hxEP1XQtmjw2XCfI9fpvkJwm8QTi_AcR9jBQJFnNttw.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block--search-form-block._SERS2FcEW5rvgvnY83paUmB26/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block--search-form-block._SERS2FcEW5rvgvnY83paUmB26/zws82wwA0BTXN8Jv6Wa2VJMIW6uwV77if661iNGn1eE.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block--system-branding-bl_t0ZoAlJoWQhyJUKqa1C9bHRzX/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block--system-branding-bl_t0ZoAlJoWQhyJUKqa1C9bHRzX/SCRLHJko1EAafFwSDE0vw5C3mEGFPn8oPl217rLK-JE.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block--system-menu-block._if2HRxSW_suD0O4AufUy9QjyG/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block--system-menu-block._if2HRxSW_suD0O4AufUy9QjyG/1sCATk4rJWGMu0zTOMiKkmpSbfAKjozBekfbuWZDnYk.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block--system-menu-block._rWbugPysjm7k5XltAyQcHbZwW/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block--system-menu-block._rWbugPysjm7k5XltAyQcHbZwW/URqQTgobXhNXPJymqIx9d-lZkKs1taxa4szqCZso6es.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block--system-messages-bl_Ba8o6Kd-PKkynGHueS7a99THC/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block--system-messages-bl_Ba8o6Kd-PKkynGHueS7a99THC/lLKWyHHzZfnwxltEHUeapULJPLaOgxFSFbGLpzvRgc8.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block.html.twig_FzxTsU7v-9VIfXhs9q_E1JzSj/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block.html.twig_FzxTsU7v-9VIfXhs9q_E1JzSj/Ob2wDS5V_ChQl487n0DprgZYrjm9AWViR-eH753jEuU.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block.html.twig_MTv4HZakHNqbTALNGEzC2q6ID/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block.html.twig_MTv4HZakHNqbTALNGEzC2q6ID/i4YN23DngFXnOYcxDhB28XTTJrNgo1iUgPmy4bwX3pE.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block.html.twig_eICN7TdF_NjRs36zMLvkRWW3r/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_block.html.twig_eICN7TdF_NjRs36zMLvkRWW3r/PNEtletZQT8Af911sifQOoErHOROSuaYZLPs4xfnKWg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_breadcrumb.html.twig_0myJvcmxqKC_MK406hc27etDU/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_breadcrumb.html.twig_0myJvcmxqKC_MK406hc27etDU/_tXmCETmp4Qen2Cq8W5c_XzcpCvnt-pVqF7QB9VOE0U.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_container.html.twig_w9X4qCE8-dlYC1GZHhCrjp23k/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_container.html.twig_w9X4qCE8-dlYC1GZHhCrjp23k/rjaSZf0PInbdQkNns5qQEdy--jfCb43_-lvnH2TKzoU.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_details.html.twig_NhGkX2XXxOj9pl-0-OMxU5X8u/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_details.html.twig_NhGkX2XXxOj9pl-0-OMxU5X8u/XHJWy3_4rdkI-VKOl8L6OlFCFrsH0rEZn0P2zUyRMKA.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_dropbutton-wrapper.html.t_cpoMibq2UYpgk5HoLvytJFnom/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_dropbutton-wrapper.html.t_cpoMibq2UYpgk5HoLvytJFnom/easyKrp-NZEemVKTpwHkuPQpxGKhSOmDjz7mCcJiKXA.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_feed-icon.html.twig_4y8HAS5GrDB5r1Z6Eb4NAA5b-/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_feed-icon.html.twig_4y8HAS5GrDB5r1Z6Eb4NAA5b-/PkSE2T9Wtway-Zu1l66sEC7qYHPLNW65NwfNCyfm4ms.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_form--search-block-form.h_eUuIqVLvtwzn9SeI371dfzU_U/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_form--search-block-form.h_eUuIqVLvtwzn9SeI371dfzU_U/0jlISF-46B6f5l3Wnss5KfAF7-Wm7LUNmirR7yzvgOA.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_form-element-label.html.t_YtGD4v3uk-HJjBHjbzc90zsT5/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_form-element-label.html.t_YtGD4v3uk-HJjBHjbzc90zsT5/c8vK2Y7f-dX7WKMt83OQyoVeaM-H1ub9EJhPfjwIfrA.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_form-element.html.twig_ARUUaFMUjHUYS1o68LzSsT4Jo/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_form-element.html.twig_ARUUaFMUjHUYS1o68LzSsT4Jo/LuEh0SfGBWVrctepdZ9DHyoBj3OatoSeGyTKEGJ3Pws.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_form.html.twig_X6aw56nqV59RjyaisNTy9dany/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_form.html.twig_X6aw56nqV59RjyaisNTy9dany/KMSUzyStTVKGSW-nbpH1vw1wVl0TloRY2DS6ImVM1rI.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_html.html.twig_YNnM1PJt0wBqHD1tOKMlx30Pv/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_html.html.twig_YNnM1PJt0wBqHD1tOKMlx30Pv/hL6fbFEWyNDbWOZTA00MVkAKNRFj_hYj3bISHLM0jno.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_image.html.twig_hbDy5_9c-2kOQr2aIpk5dqhAn/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_image.html.twig_hbDy5_9c-2kOQr2aIpk5dqhAn/wogqwFQvdeQoUvuHTHevx2le6IEe_zVg2EhH4IB15xw.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_input.html.twig_zCIJygriHR5V8sWmJ3UVobu8P/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_input.html.twig_zCIJygriHR5V8sWmJ3UVobu8P/swESq4CTr0mTH_0vqSrWkyH9A6vxtyBxUnm7sf-rUKk.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_links.html.twig_mGTh8rqdIcqK0Oe2NsXiUyMIj/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_links.html.twig_mGTh8rqdIcqK0Oe2NsXiUyMIj/t_jrLCO75k1vUOKsF6WPZRrV62BUdwdclccWV36R7h8.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_menu--toolbar.html.twig_4OxXdEBe3o1ZZZVRW5XYjkn52/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_menu--toolbar.html.twig_4OxXdEBe3o1ZZZVRW5XYjkn52/GHhmNybUwFexj9zOF66AmGbx-acX2td22PCwiX_1dxA.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_menu-local-action.html.tw_-bI1km-W_asdJx-M-BiX_UTRN/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_menu-local-action.html.tw_-bI1km-W_asdJx-M-BiX_UTRN/GNTM_ooz3S2AW68zIVepG-g6zwc1MXj5KDpaI4HHFLo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_menu-local-task.html.twig_t-DIZSfLxd8RL8By4zdQJ9EV8/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_menu-local-task.html.twig_t-DIZSfLxd8RL8By4zdQJ9EV8/Za9eo7Ds-wSF4JtiM4EV2qJX2QV1SZTYUcvlMo8LZeo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_menu-local-tasks.html.twi_GAIiwJWdmzfLYl4GvVsdWp5Fb/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_menu-local-tasks.html.twi_GAIiwJWdmzfLYl4GvVsdWp5Fb/aPqXpZXFrgarZlsH15UxueOeUU6TFrdhnMAY3UEaFDo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_menu.html.twig_v7wB4mCy9AVr1ebbiCzqicv0c/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_menu.html.twig_v7wB4mCy9AVr1ebbiCzqicv0c/HiSI84w2fAUkqF9vvc3xGOpdQII1d1BpE48LAu0VLgQ.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_off-canvas-page-wrapper.h_2KBBj7a-2BTG_1Kr3pxPY32wT/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_off-canvas-page-wrapper.h_2KBBj7a-2BTG_1Kr3pxPY32wT/8nTLKfkob4_zK6dO-MnzpDfsfdopfTwt4JTpfAaKU90.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_page-title.html.twig_s_Y1j8ZywTvwPI6VCweipeRnO/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_page-title.html.twig_s_Y1j8ZywTvwPI6VCweipeRnO/yS5FNUPIwrJClEsT3fBcAK6_x91mE_3BdpHJsdmRzrM.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_page-title.html.twig_uQXE_On1CP1_MFBexNKEBEgAD/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_page-title.html.twig_uQXE_On1CP1_MFBexNKEBEgAD/VgghYP2pmT0G28eu_vCCEG9TOWAckxeL9PoWVKPpg6g.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_page.html.twig_2Hqn7I8yJX3xxigP26_LQEGjC/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_page.html.twig_2Hqn7I8yJX3xxigP26_LQEGjC/Dp8aaaQ2mVZ9TaLT_Wu3-pPEEDdftGtKAr0fEoXA5s8.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_page.html.twig_iJvSb4qcb6k9DDtAB1wo5Rj54/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_page.html.twig_iJvSb4qcb6k9DDtAB1wo5Rj54/1ZRyr2KLrPYaHR7Rakp3ecKwGeoneEOjV_XjVUBOqH4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_pager.html.twig_MusPaRciTv6vU26g0ZuK11FLD/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_pager.html.twig_MusPaRciTv6vU26g0ZuK11FLD/_sjpcaLlk7AkfLL_ZdAOVJ5JRJYxPT_qk8pOj3XxruA.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_region--header.html.twig_C_OUEFaWZ9zh05uKKwb5S70SX/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_region--header.html.twig_C_OUEFaWZ9zh05uKKwb5S70SX/5PUbaK1U9hLj0U6g9B_1hVN9vGxuurNN8Sf9MaPgLwo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_region.html.twig_TkgGQaO5uEfcJrkbm9c7CmFQ-/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_region.html.twig_TkgGQaO5uEfcJrkbm9c7CmFQ-/2jK3fRq3xdluCO8N2g16hViClYVevyRMP1i0YQz1o6s.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_select.html.twig_Q2eazjeip4iqBRqRE1ee1pE7E/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_select.html.twig_Q2eazjeip4iqBRqRE1ee1pE7E/JsbBIVY30XG_DwuCh-JEBUslHBn332txRXoZAfzC_S0.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_system-themes-page.html.t_VQ4Ay-V_T6RUU6wcmE-DCqXBL/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_system-themes-page.html.t_VQ4Ay-V_T6RUU6wcmE-DCqXBL/mC0nAMsh_HqfP0H-_3U1WRGwrv8MEDmTcTILv6miqao.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_table.html.twig_Ltn9tFWnYwJuFapFp7NqFDzQs/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_table.html.twig_Ltn9tFWnYwJuFapFp7NqFDzQs/tgT1RS0dNAgkORCmhEnc-DA-b7glEfFyrJjy-2v9fZM.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_toolbar.html.twig_RHqK_HcbamNR-UZXaYAW72tWo/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_toolbar.html.twig_RHqK_HcbamNR-UZXaYAW72tWo/8vfnbAm-XNiG7whJ4lozPupqc5NIeUPukA-Pm05LeII.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_views-view.html.twig_Gbk73HSj_zxr8_JKoUnxxrMV_/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/5ebe122f179f4_views-view.html.twig_Gbk73HSj_zxr8_JKoUnxxrMV_/_4kFsnQHmztulDveE1_-kzhQ0WsSelC78LWL3rK0X8o.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,14 +116,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Entity/Product.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/modules/custom/products/products.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-start-column="2" selection-end-line="10" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Entity/Importer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="659">
+              <caret line="134" column="18" selection-start-line="134" selection-start-column="18" selection-end-line="134" selection-end-column="18" />
               <folding>
-                <element signature="e#125#166#0#PHP" expanded="true" />
+                <element signature="e#124#171#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/ProductTypeListBuilder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" column="62" selection-start-line="16" selection-end-line="16" selection-end-column="62" />
+              <folding>
+                <element signature="e#117#171#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Form/ImporterForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
+              <folding>
+                <element signature="e#122#156#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Plugin/Importer/JsonImporter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+              <folding>
+                <element signature="e#6#87#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/ProductListBuilder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+              <folding>
+                <element signature="e#117#156#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/modules/custom/products/Config/schema/importer.schema.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Entity/ImporterInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+              <folding>
+                <element signature="e#124#176#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Entity/ProductType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="569">
+              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -105,9 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/sites/default/settings.local.php" />
-        <option value="$PROJECT_DIR$/web/modules/custom/content_authoring/content_authoring.info.yml" />
-        <option value="$PROJECT_DIR$/web/modules/custom/mymodule/mymodule.info.yml" />
         <option value="$PROJECT_DIR$/web/modules/custom/mymodule/src/Entity/SiteAnnouncementInterface.php" />
         <option value="$PROJECT_DIR$/web/modules/custom/mymodule/src/SiteAnnouncementListBuilder.php" />
         <option value="$PROJECT_DIR$/web/modules/custom/mymodule/src/SiteAnnouncementForm.php" />
@@ -132,28 +263,33 @@
         <option value="$PROJECT_DIR$/web/modules/custom/mymodule1/mymodule1.links.menu.yml" />
         <option value="$PROJECT_DIR$/web/modules/custom/mymodule/src/Entity/Message.php" />
         <option value="$PROJECT_DIR$/web/modules/custom/products/products.info.yml" />
-        <option value="$PROJECT_DIR$/web/modules/custom/products/src/Entity/ProductInterface.php" />
         <option value="$PROJECT_DIR$/web/modules/custom/products/src/Form/ProductForm.php" />
-        <option value="$PROJECT_DIR$/web/modules/custom/products/src/ProductListBuilder.php" />
-        <option value="$PROJECT_DIR$/web/modules/custom/products/src/Entity/Product.php" />
         <option value="$PROJECT_DIR$/web/modules/custom/products/src/Annotation/Importer.php" />
         <option value="$PROJECT_DIR$/web/modules/custom/products/src/Plugin/ImporterInterface.php" />
-        <option value="$PROJECT_DIR$/web/modules/custom/products/src/Entity/ImporterInterface.php" />
-        <option value="$PROJECT_DIR$/web/modules/custom/products/src/Entity/Importer.php" />
-        <option value="$PROJECT_DIR$/web/modules/custom/products/Config/schema/importer.schema.yml" />
         <option value="$PROJECT_DIR$/web/modules/custom/products/src/ImporterListBuilder.php" />
-        <option value="$PROJECT_DIR$/web/modules/custom/products/src/Form/ImporterForm.php" />
         <option value="$PROJECT_DIR$/web/modules/custom/products/src/Form/ImporterDeleteForm.php" />
-        <option value="$PROJECT_DIR$/web/modules/custom/products/products.links.menu.yml" />
-        <option value="$PROJECT_DIR$/web/modules/custom/products/products.links.action.yml" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/web/modules/custom/products/products.services.yml" />
         <option value="$PROJECT_DIR$/web/modules/custom/products/src/Plugin/ImporterManager.php" />
         <option value="$PROJECT_DIR$/web/modules/custom/products/src/Plugin/ImporterBas.php" />
         <option value="$PROJECT_DIR$/web/modules/custom/products/src/Plugin/ImporterBase.php" />
         <option value="$PROJECT_DIR$/web/sites/default/files/products.json" />
+        <option value="$PROJECT_DIR$/web/modules/custom/products/src/Entity/ProductTypeInterface.php" />
+        <option value="$PROJECT_DIR$/web/modules/custom/products/src/ProductTypeListBuilder.php" />
+        <option value="$PROJECT_DIR$/web/modules/custom/products/src/Form/ProductTypeForm.php" />
+        <option value="$PROJECT_DIR$/web/modules/custom/products/src/Form/ProductTypeDeleteForm.php" />
+        <option value="$PROJECT_DIR$/web/modules/custom/products/products.links.menu.yml" />
+        <option value="$PROJECT_DIR$/web/modules/custom/products/products.links.action.yml" />
+        <option value="$PROJECT_DIR$/web/modules/custom/products/src/Entity/ProductType.php" />
+        <option value="$PROJECT_DIR$/web/modules/custom/products/src/Entity/ImporterInterface.php" />
+        <option value="$PROJECT_DIR$/web/modules/custom/products/src/Entity/Importer.php" />
+        <option value="$PROJECT_DIR$/web/modules/custom/products/Config/schema/importer.schema.yml" />
+        <option value="$PROJECT_DIR$/web/modules/custom/products/src/Form/ImporterForm.php" />
         <option value="$PROJECT_DIR$/web/modules/custom/products/src/Plugin/Importer/JsonImporter.php" />
+        <option value="$PROJECT_DIR$/web/modules/custom/products/src/Entity/ProductInterface.php" />
+        <option value="$PROJECT_DIR$/web/modules/custom/products/src/Entity/Product.php" />
         <option value="$PROJECT_DIR$/web/modules/custom/products/products.module" />
+        <option value="$PROJECT_DIR$/web/modules/custom/products/src/ProductListBuilder.php" />
       </list>
     </option>
   </component>
@@ -259,6 +395,25 @@
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="custom" type="462c0819:PsiDirectoryNode" />
               <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="masteringPacket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="masteringPacket" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="Config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="masteringPacket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="masteringPacket" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="Config" type="462c0819:PsiDirectoryNode" />
+              <item name="schema" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="masteringPacket" type="b2602c69:ProjectViewProjectNode" />
@@ -383,15 +538,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37850000" />
+    <option name="totallyTimeSpent" value="43964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="26" width="1922" height="1031" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20886752" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.20886752" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -414,23 +569,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/mymodule/src/Entity/SiteAnnouncement.php" />
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/mymodule/mymodule.links.task.yml" />
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/mymodule/mymodule.permission.yml" />
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/mymodule/config/schema/mymodule.schema.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="93" selection-start-column="93" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/mymodule1/config/schema/mymodule1.schema.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/modules/custom/mymodule1/config/src/Entity/SiteAnnouncementInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -539,16 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Entity/ProductInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-          <folding>
-            <element signature="e#159#205#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/core/lib/Drupal/Core/Entity/EntityListBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3076">
@@ -577,30 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/products.links.task.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/ProductListBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="42" />
-          <folding>
-            <element signature="e#117#156#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/Config/schema/importer.schema.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/core/lib/Drupal/Core/Config/Entity/ConfigEntityListBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -625,20 +729,6 @@
           <folding>
             <element signature="e#122#163#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/products.links.menu.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/products.links.action.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -706,59 +796,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Form/ImporterForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-721">
-          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-          <folding>
-            <element signature="e#122#156#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Entity/ImporterInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="e#124#176#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Entity/Importer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-436">
-          <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-          <folding>
-            <element signature="e#124#171#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Plugin/ImporterManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="e#124#174#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/products.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Plugin/Importer/JsonImporter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -770,12 +813,151 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/products.links.task.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Entity/ProductTypeInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Form/ProductTypeForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
+          <folding>
+            <element signature="e#122#156#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/products.links.menu.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/products.links.action.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Form/ProductTypeDeleteForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+          <folding>
+            <element signature="e#122#167#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Entity/ProductInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="86" column="37" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
+          <folding>
+            <element signature="e#159#205#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Entity/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        <state relative-caret-position="359">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
           <folding>
             <element signature="e#125#166#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Form/ImporterForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+          <folding>
+            <element signature="e#122#156#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/Config/schema/importer.schema.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Entity/ImporterInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+          <folding>
+            <element signature="e#124#176#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Entity/ProductType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Plugin/Importer/JsonImporter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/products.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-start-column="2" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/Entity/Importer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="134" column="18" selection-start-line="134" selection-start-column="18" selection-end-line="134" selection-end-column="18" />
+          <folding>
+            <element signature="e#124#171#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/ProductTypeListBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="62" selection-start-line="16" selection-end-line="16" selection-end-column="62" />
+          <folding>
+            <element signature="e#117#171#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/products/src/ProductListBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+          <folding>
+            <element signature="e#117#156#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

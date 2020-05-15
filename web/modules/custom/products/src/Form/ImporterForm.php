@@ -110,6 +110,14 @@ class ImporterForm extends EntityForm {
       '#default_value' => $importer->getSource(),
     ];
 
+    $form['bundle'] = [
+      '#type' => 'entity_autocomplete',
+      '#target_type' => 'product_type',
+      '#title' => $this->t('Product type'),
+      '#default_value' => $importer->getBundle() ? $this->entityTypeManager->getStorage('product_type')->load($importer->getBundle()) : NULL,
+      '#description' => $this->t('The type of products that need to be created.'),  '#required' => TRUE,
+    ];
+
     return $form;
   }
 

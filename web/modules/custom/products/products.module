@@ -6,8 +6,7 @@
  */
 function products_preprocess_page(&$variables) {
 
-  $plugin = \Drupal::service('products.importer_manager')
-    ->createInstanceFromConfig('my_json_product_importer');
-  $test = $plugin->import();
-  var_dump($test);
+//  $plugin = \Drupal::service('products.importer_manager')
+//    ->createInstanceFromConfig('my_json_product_importer');
+//  $plugin->import();
 }

@@ -97,6 +97,13 @@ class Importer extends ConfigEntityBase implements ImporterInterface {
   protected $source;
 
   /**
+   * The product bundle.
+   *
+   * @var string
+   */
+  protected $bundle;
+
+  /**
    * {@inheritdoc}
    */
   public function getUrl() {
@@ -122,5 +129,12 @@ class Importer extends ConfigEntityBase implements ImporterInterface {
    */
   public function getSource() {
     return $this->source;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function getBundle() {
+    return $this->bundle;
   }
 }

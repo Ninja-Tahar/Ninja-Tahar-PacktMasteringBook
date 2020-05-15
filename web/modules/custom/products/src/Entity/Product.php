@@ -20,6 +20,7 @@ use Drupal\Core\Field\BaseFieldDefinition;
  * @ContentEntityType(
  *   id = "product",
  *   label = @Translation("Product"),
+ *   bundle_label = @Translation("Product type"),
  *   handlers = {
  *     "view_builder" = "Drupal\Core\Entity\EntityViewBuilder",
  *     "list_builder" = "Drupal\products\ProductListBuilder",
@@ -41,10 +42,14 @@ use Drupal\Core\Field\BaseFieldDefinition;
  *     "id" = "id",
  *     "label" = "name",
  *     "uuid" = "uuid",
+ *   "bundle" = "type",
  *   },
+ *   bundle_entity_type = "product_type",
+ *   field_ui_base_route = "entity.product_type.edit_form",
  *   links = {
  *     "canonical" = "/admin/structure/product/{product}",
- *     "add-form" = "/admin/structure/product/add",
+ *     "add-form" = "/admin/structure/product/add/{product_type}",
+ *     "add-page" = "/admin/structure/product/add",
  *     "edit-form" = "/admin/structure/product/{product}/edit",
  *     "delete-form" = "/admin/structure/product/{product}/delete",
  *     "collection" = "/admin/structure/product",
@@ -112,6 +117,21 @@ class Product extends ContentEntityBase implements ProductInterface {
    */
   public function setSource($source) {
     $this->set('source', $source);
+    return $this;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function getBundle() {
+    return $this->get('bundle')->value;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function setBundle($bundle) {
+    $this->set('bundle', $bundle);
     return $this;
   }
 

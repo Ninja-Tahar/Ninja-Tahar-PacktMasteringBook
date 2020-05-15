@@ -25,6 +25,7 @@ class ProductListBuilder extends EntityListBuilder {
     $header['id'] = $this->t('Product ID');
     $header['name'] = $this->t('Name');
     $header['source'] = $this->t('Source');
+    $header['bundle'] = $this->t('Bundle');
     return $header + parent::buildHeader();
   }
 
@@ -43,6 +44,8 @@ class ProductListBuilder extends EntityListBuilder {
       )
     );
     $row['source'] = $entity->getSource();
+    var_dump($entity->getTypedData());die;
+    $row['bundle'] = $entity->getBundle();
     return $row + parent::buildRow($entity);
   }
 
