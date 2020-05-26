@@ -27,6 +27,10 @@ class ComposerStaticInit7ac018fddea3bdfe944b99da1a652ad4
     );
 
     public static $prefixLengthsPsr4 = array (
+        'b' => 
+        array (
+            'biologis\\JIRA_PHP_API\\' => 22,
+        ),
         'Z' => 
         array (
             'Zend\\Stdlib\\' => 12,
@@ -108,6 +112,10 @@ class ComposerStaticInit7ac018fddea3bdfe944b99da1a652ad4
     );
 
     public static $prefixDirsPsr4 = array (
+        'biologis\\JIRA_PHP_API\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/biologis/jira-php-api/src',
+        ),
         'Zend\\Stdlib\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-stdlib/src',
